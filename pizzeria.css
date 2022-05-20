@@ -1,0 +1,150 @@
+:root{
+    box-sizing: border-box;
+    color: white;
+}
+*{
+    box-sizing: inherit;
+}
+::before, ::after{
+    box-sizing: inherit;
+}
+body{
+    background: url("https://cdn.pixabay.com/photo/2014/08/06/14/27/wood-411643__340.jpg");
+}
+#header{
+    background-color: black;
+    padding: 5px;
+    font-family: 'Cookie', Arial, Helvetica, sans-serif;
+}
+#logo{
+    float: left;
+    width: 20%;
+}
+#logo img{
+    width: 60px;
+    margin-left: 10px;
+}
+.menu{
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.menu ul li a:hover{
+    color: #ffd77f;
+}
+.contact-info{
+    float: left;
+    width: 20%;
+}
+.contact-info .tel{
+    font-size: 1.2rem;
+    margin: 25px auto 0px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.slider-box{
+    height: 200px;
+    background-color: black;
+}
+.slider-half-item{
+    width: 50%;
+    float: left;
+    height: 100%;
+    font-family: cursive,Verdana, Geneva, Tahoma, sans-serif;
+}
+.slider-half-item article{
+    margin: 2rem;
+}
+.slider-half-item article .button-section{
+    margin: 1rem;
+}
+.slider-half-item .button{
+    text-transform: uppercase;
+    padding: 8px;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 0.7rem;
+}
+.book-button{
+    color: #ffd77f;
+    border: 2px solid #ffd77f;
+}
+.order-button{
+    color: #7FD7FF;
+    border: 2px solid #7FD7FF;
+}
+.order-button:hover, .book-button:hover{
+    background-color: #333333;
+}
+.pizza-img{
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395__480.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.adventages-box{
+    background-color: transparent;
+}
+.adventages-one-third{
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    margin: 30px 0px 30px;
+}
+.column-adventages{
+    position: relative;
+    height: 160px;
+    border: 5px solid black;
+    text-align: center;
+    color: rgb(6, 243, 252);
+}
+.best-ingredients{
+    background-image: url("https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.original-recipe{
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/24/16/16/pizza-2885089__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.fast-delivery{
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/30/14/10/delivery-guy-1424808__340.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.kitchen-menu{
+    background-color: black;
+}
+.menu-one-forth{
+    width: 25%;
+    float: left;
+    font-family: cursive,Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.menu-one-forth img{
+    width: 100%;
+}
+.page-footer{
+    width: 100%;
+    background-color: black;
+    font-family: 'cookie';
+}
+
